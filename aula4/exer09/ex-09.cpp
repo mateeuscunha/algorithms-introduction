@@ -16,7 +16,7 @@ int main() {
 
     saida << k << " K" << endl << f << " F" << endl;
 
-
+    saida.close();
 
     return 0;
 }
