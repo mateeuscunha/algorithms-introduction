@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     float peso, altura;
-    char classe;
+    char classe = 'N';
     cin >> peso >> altura;
 
     //primeira linha da tabela:
@@ -16,7 +16,7 @@ int main() {
             classe = 'G';
         }
     //segunda linha da tabela:
-    } else if (altura <= 1.7) { 
+    } else if (altura <= 1.7 + 0.01) { 
         if (peso < 60) {
             classe = 'B';
         } else if (peso <= 90) {
