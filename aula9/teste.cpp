@@ -2,32 +2,19 @@
 using namespace std;
 
 bool capicua(int num) {
-	bool capicua;
 	int algarismo;
-	int guardar = num;
+	int original = num;
 	int revertido = 0;
-	int incremento = 1;
 	
 	while (num != 0) {
 		algarismo = num % 10;
 		
-		revertido += algarismo * incremento;
-		
-		incremento = incremento * 10;
-		
+		revertido = (revertido * 10) + algarismo;
+
 		num /= 10;
 	}
 	
-	cout << "revertido: " << revertido << endl;
-	cout << "normal: " << guardar << endl;
-	
-	if (revertido == guardar) {
-		capicua = true;
-	} else {
-		capicua = false;
-	}
-	
-	return capicua;
+	return original == revertido;
 }
 
 
