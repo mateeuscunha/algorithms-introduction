@@ -2,7 +2,7 @@
 using namespace std;
 
 float inclinacao(int altura, int base) {
-    float res = (altura * 100) / base;
+    float res = (altura * 100.0) / base;
     return res;
 }
 
@@ -17,7 +17,7 @@ int main() {
 
         cout << inclinacao(altura, base) << endl;
             
-        if (inclinacao(altura, base) <= 8.0) {
+        if (inclinacao(altura, base) <= 8.001) {
             adequadas++;
         }
 
