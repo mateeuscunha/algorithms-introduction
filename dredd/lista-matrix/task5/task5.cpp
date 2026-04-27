@@ -16,9 +16,12 @@ int main() {
 	int somatorio = 0;
 	for (int i = 0; i < 7; i++) {
 		for (int j = 0; j < 7; j++) {
-			if((i - 3 == abs(distancia)) or (j - 3 == abs(distancia))) {
-				somatorio += matriz[i][j];
-				cout << "Estou somando o elemento: [" << i << "][" << j << "]" << endl;
+			int di = abs(i - 3);
+			int dj = abs(j - 3);
+			
+			if(di <= distancia and dj <= distancia) {
+				if (di == distancia or dj == distancia)
+					somatorio += matriz[i][j];
 			}
 		}
 	}
