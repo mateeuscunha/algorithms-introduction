@@ -54,7 +54,9 @@ int main() {
 			} else if (vetor[i] > segmai) {
 				segmai = vetor[i];
 				pos_segmai = i;
-			} else if (vetor[i] < men) {
+			}
+			
+			if (vetor[i] < men) {
 				segmen = men;
 				pos_segmen = pos_men;
 				
