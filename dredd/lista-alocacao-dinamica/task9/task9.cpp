@@ -38,7 +38,7 @@ int main() {
 		if (primeiro[i] != -1)
 			res[p++] = primeiro[i];
 
-	for (int i = 0; i < contador; i++)
+	for (int i = 0; i < p; i++)
 		cout << res[i] << " ";
 
 	
