@@ -22,7 +22,7 @@ int main() {
 	cin >> tam;
 	
 	int *vet = new int[tam];
-	for (int i = 0; i<tam; i++)
+	for (int i = 0; i < tam; i++)
 		cin >> vet[i];
 	
 	int pos;
@@ -30,7 +30,7 @@ int main() {
 
 	selection (vet, pos, tam);
 	
-	for (int i = 0; i<tam; i++)
+	for (int i = 0; i < tam; i++)
 		cout << vet[i] << " ";
 	cout << endl;
 
