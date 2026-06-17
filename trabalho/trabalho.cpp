@@ -14,19 +14,35 @@ struct atirador {
 	float forca;
 };
 
-void ordenarForca(atirador *atiradores, int qtd) {
-	for (int i = 0; i < qtd; i++) {
-		atirador aux;
-		if (i+1 != qtd) {
-			if (atiradores[i].forca > atiradores[i+1].forca) {
-				aux = atiradores[i];
-				atiradores[i] = atiradores[i+1];
-				atiradores[i+1] = aux;
-			}
-		}
+void ordenarForcaDecrescente(atirador *atiradores, int qtd) {
+	int posMaior;
+	atirador aux;
+	for (int i = 0; i < qtd-1; i++) {
+		posMaior = i;
+		for (int j = i+1; j < qtd; j++)
+			if (atiradores[j].forca > atiradores[posMaior].forca)
+				posMaior = j;
+			
+		aux = atiradores[posMaior];
+		atiradores[posMaior] = atiradores[i];
+		atiradores[i] = aux;
 	}
 }
 
+void ordenarNomeCrescente(atirador *atiradores, int qtd) {
+	int posMenor;
+	atirador aux;
+	for (int i = 0; i < qtd-1; i++) {
+		posMenor = i;
+		for (int j = i+1; j < qtd; j++)
+			if (atiradores[j].nomeGuerra < atiradores[posMenor].nomeGuerra)
+				posMenor = j;
+			
+		aux = atiradores[posMenor];
+		atiradores[posMenor] = atiradores[i];
+		atiradores[i] = aux;
+	}
+}
 
 int main() {
 	ifstream input ("atiradores.csv");
@@ -38,26 +54,51 @@ int main() {
 	
 	char pontoVirgula;
 	
-	for (int i = 0; i < 40; i++) {
-		input >> vetor[i].numGuerra;
+	atirador auxLeitura;
+	int capacidade = 40;
+	int tamanho = 0;
+	
+	while (input >> auxLeitura.numGuerra) {
+		// lendo todas as informações do atirador
 		input >> pontoVirgula;
-		getline(input, vetor[i].nomeGuerra, ';');
-		getline(input, vetor[i].arma, ';');
-		getline(input, vetor[i].profissao, ';');
-		input >> vetor[i].forca;
+		getline(input, auxLeitura.nomeGuerra, ';');
+		getline(input, auxLeitura.arma, ';');
+		getline(input, auxLeitura.profissao, ';');
+		input >> auxLeitura.forca;
+		
+		// se necessário, redimensionando antes de atribuir ao vetor
+		if (tamanho >= capacidade) {
+			// redimensiona e atribui
+			atirador *novo = new atirador[capacidade+5];
+			copy(vetor, vetor + tamanho, novo);
+			
+			delete [] vetor;
+			vetor = novo;
+			
+			capacidade += 5;
+			
+			vetor[tamanho] = auxLeitura;
+			tamanho++;
+		} else {
+			// só atribui
+			vetor[tamanho] = auxLeitura;
+			tamanho++;
+		}
 	}
 	
-	ordenarForca(vetor, 40);
+	//testando a ordenação por força
+	ordenarForcaDecrescente(vetor, tamanho);
+
+	//testando a ordenação por nome 
+	ordenarNomeCrescente(vetor, tamanho);
 	
-	for (int i = 0; i < 40; i++) {
+	for (int i = 0; i < capacidade; i++) {
 		cout << vetor[i].numGuerra << endl;
 		cout << vetor[i].nomeGuerra << endl;
 		cout << vetor[i].arma << endl;
 		cout << vetor[i].profissao << endl;
-		cout << vetor[i].forca << endl;
+		cout << vetor[i].forca << endl << endl;
 	}
-
-
 
 
 	delete [] vetor;
