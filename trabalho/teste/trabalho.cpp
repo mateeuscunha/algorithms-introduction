@@ -251,7 +251,7 @@ void switchBusca (atirador *vetor, int tamanho) {
 
 void menu (char &flag, atirador *&vetor, int &tamanho, int &capacidade) {
 	// impressão do menu
-	cout << endl << "================= ";
+	cout << "\n\n" << "================= ";
 	cout << "MENU DE FUNCIONALIDADES" << endl;
 	cout << " 1 - Adicionar novo atirador \n 2 - Ordenar por força (decrescente) \n 3 - Ordenar por nome (ordem alfabética) \n 4 - Remover atirador \n 5 - Imprimir vetor \n 6 - Buscar Atirador \n 8 - Encerrar programa" << endl;
 	cout << "================= ";
