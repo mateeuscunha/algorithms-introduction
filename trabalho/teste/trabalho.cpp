@@ -55,6 +55,43 @@ void lerArquivo (string nomeArquivo, atirador *&vetor, int &tamanho, int &capaci
 	input.close();
 }
 
+void imprimirVetor (atirador *vetor, int tamanho) {
+	char inteiro;
+	cout << endl << " 1 - Imprimir vetor inteiro. \n 2 - Imprimir trecho do vetor \n";
+	cin >> inteiro;
+	
+	if (inteiro == '1') 
+		for (int i = 0; i < tamanho; i++) {
+			cout << vetor[i].numGuerra << endl;
+			cout << vetor[i].nomeGuerra << endl;
+			cout << vetor[i].arma << endl;
+			cout << vetor[i].profissao << endl;
+			cout << vetor[i].forca << endl << endl;
+		}
+	else {
+		int inicio, fim;
+		cout << "Posição inicial: ";
+		cin >> inicio;
+		cout << endl << "Posição final: ";
+		cin >> fim;
+		cout << endl;
+		
+		if (inicio < 0 || fim >= tamanho || inicio > fim) {
+			cout << "Intervalo inválido!" << endl;
+			return;
+		} else {
+			for (int i = inicio; i <= fim; i++) {
+				cout << vetor[i].numGuerra << endl;
+				cout << vetor[i].nomeGuerra << endl;
+				cout << vetor[i].arma << endl;
+				cout << vetor[i].profissao << endl;
+				cout << vetor[i].forca << endl << endl;
+			}
+		}
+	}
+		
+}
+
 void inserir (atirador *&vetor, int &tamanho, int &capacidade) {
 	// lendo os atributos do atirador a ser inserido
 	atirador inserido;
@@ -63,8 +100,9 @@ void inserir (atirador *&vetor, int &tamanho, int &capacidade) {
 	cout << "Número de guerra: ";
 	cin >> inserido.numGuerra;
 	
+	cin.ignore(); //para ignorar o \n deixado pelo cin
 	cout << "Nome de guerra: ";
-	cin >> inserido.nomeGuerra;
+	getline(cin, inserido.nomeGuerra);
 	
 	cout << "Arma: ";
 	cin >> inserido.arma;
@@ -117,70 +155,38 @@ void remover (atirador *&vetor, int &tamanho, int &capacidade) {
 	
 }
 
-void ordenarForcaDecrescente (atirador *atiradores, int qtd) {
-	int posMaior;
-	atirador aux;
-	for (int i = 0; i < qtd-1; i++) {
-		posMaior = i;
-		for (int j = i+1; j < qtd; j++)
-			if (atiradores[j].forca > atiradores[posMaior].forca)
-				posMaior = j;
-			
-		aux = atiradores[posMaior];
-		atiradores[posMaior] = atiradores[i];
-		atiradores[i] = aux;
-	}
-}
-
-void ordenarNomeCrescente (atirador *atiradores, int qtd) {
+void ordenarNomeCrescente (atirador *vetor, int tamanho) {
 	int posMenor;
 	atirador aux;
-	for (int i = 0; i < qtd-1; i++) {
+	for (int i = 0; i < tamanho-1; i++) {
 		posMenor = i;
-		for (int j = i+1; j < qtd; j++)
-			if (atiradores[j].nomeGuerra < atiradores[posMenor].nomeGuerra)
+		for (int j = i+1; j < tamanho; j++)
+			if (vetor[j].nomeGuerra < vetor[posMenor].nomeGuerra)
 				posMenor = j;
 			
-		aux = atiradores[posMenor];
-		atiradores[posMenor] = atiradores[i];
-		atiradores[i] = aux;
+		aux = vetor[posMenor];
+		vetor[posMenor] = vetor[i];
+		vetor[i] = aux;
 	}
 }
 
-void imprimirVetor (atirador *vetor, int tamanho) {
-	char inteiro;
-	cout << endl << " 1 - Imprimir vetor inteiro. \n 2 - Imprimir trecho do vetor \n";
-	cin >> inteiro;
-	
-	if (inteiro == '1') 
-		for (int i = 0; i < tamanho; i++) {
-			cout << vetor[i].numGuerra << endl;
-			cout << vetor[i].nomeGuerra << endl;
-			cout << vetor[i].arma << endl;
-			cout << vetor[i].profissao << endl;
-			cout << vetor[i].forca << endl << endl;
-		}
-	else {
-		int inicio, fim;
-		cout << "Posição inicial: ";
-		cin >> inicio;
-		cout << endl << "Posição final: " << endl;
-		cin >> fim;
-		
-		for (int i = inicio; i <= fim; i++) {
-			cout << vetor[i].numGuerra << endl;
-			cout << vetor[i].nomeGuerra << endl;
-			cout << vetor[i].arma << endl;
-			cout << vetor[i].profissao << endl;
-			cout << vetor[i].forca << endl << endl;
-		}
+void ordenarForcaDecrescente (atirador *vetor, int tamanho) {
+	int posMaior;
+	atirador aux;
+	for (int i = 0; i < tamanho-1; i++) {
+		posMaior = i;
+		for (int j = i+1; j < tamanho; j++)
+			if (vetor[j].forca > vetor[posMaior].forca)
+				posMaior = j;
+			
+		aux = vetor[posMaior];
+		vetor[posMaior] = vetor[i];
+		vetor[i] = aux;
 	}
-		
 }
 
 int buscaNome (atirador *vetor, int tamanho, int inicio, int fim, string procurado) {
-	ordenarNomeCrescente(vetor, tamanho);
-	
+		
 	if (inicio > fim)
 		return -1; // não achou
 	
@@ -196,7 +202,7 @@ int buscaNome (atirador *vetor, int tamanho, int inicio, int fim, string procura
 
 void buscaForca (atirador *vetor, int tamanho, float forcaProcurada, int &posEncontrados, int encontrados[10]) {
 	for (int i = 0; i < tamanho; i++) {
-		if (vetor[i].forca == forcaProcurada) {
+		if (abs(vetor[i].forca - forcaProcurada) < 0.001f) { // se a força do elemento for igual a força procurada
 			encontrados[posEncontrados] = i;
 			posEncontrados++;
 		}
@@ -211,10 +217,11 @@ void switchBusca (atirador *vetor, int tamanho) {
 	if (flagBusca == '1') { // Buscar por nome de guerra
 		string procurado;
 		cout << "Digite o nome de guerra do atirador: ";
-		cin >> procurado;
+		cin.ignore();
+		getline(cin, procurado);
 		
-		int pos;
-		pos = buscaNome(vetor, tamanho, 0, tamanho-1, procurado);
+		ordenarNomeCrescente(vetor, tamanho);
+		int pos = buscaNome(vetor, tamanho, 0, tamanho-1, procurado);
 		
 		if (pos != -1)
 			cout << "O atirador " << procurado << " encontra-se na posição " << pos << " do vetor em ordem alfabética. \n";
@@ -249,56 +256,74 @@ void switchBusca (atirador *vetor, int tamanho) {
 	}
 }
 
-void gravar (atirador *vetor, int tamanho) {
-	int i = 0;
-	bool achou = false;
-	while (i < tamanho and !achou) {
-		if (vetor[i].nomeGuerra == "removido :(")
-			achou = true;
-		if (!achou)
-			i++;
-	}
-	
-	while (i < tamanho-1) {
-		vetor[i] = vetor[i+1];
-		i++;
-	}
+void gravar(atirador *vetor, int &tamanho, string nomeArquivo) {
+    // 1. Remove lógicos do vetor
+    int i = 0;
+    while (i < tamanho) {
+        if (vetor[i].numGuerra == -2) {
+            for (int j = i; j < tamanho - 1; j++)
+                vetor[j] = vetor[j + 1];
+            tamanho--;
+        } else {
+            i++;
+        }
+    }
+
+    // 2. Escreve no arquivo
+    ofstream output(nomeArquivo);
+    output << "numGuerra;nomeGuerra;arma;profissao;forca" << endl;
+    for (int i = 0; i < tamanho; i++)
+        output << vetor[i].numGuerra << ";"
+               << vetor[i].nomeGuerra << ";"
+               << vetor[i].arma << ";"
+               << vetor[i].profissao << ";"
+               << vetor[i].forca << endl;
+    output.close();
 }
 
-void menu (char &flag, atirador *&vetor, int &tamanho, int &capacidade) {
+void menu (char &flag, atirador *&vetor, int &tamanho, int &capacidade, string nomeArquivo) {
 	// impressão do menu
 	cout << "\n\n" << "================= ";
 	cout << "MENU DE FUNCIONALIDADES" << endl;
-	cout << " 1 - Adicionar novo atirador \n 2 - Ordenar por força (decrescente) \n 3 - Ordenar por nome (ordem alfabética) \n 4 - Remover atirador \n 5 - Imprimir vetor \n 6 - Buscar Atirador \n 7 - Gravar alterações \n 8 - Encerrar programa" << endl;
+	cout << " 1 - Imprimir vetor \n 2 - Adicionar novo Atirador \n 3 - Remover Atirador \n 4 - Buscar Atirador \n 5 - Ordenar por nome (ordem alfabética) \n 6 - Ordenar por força (decrescente) \n 7 - Gravar alterações \n 8 - Encerrar programa" << endl;
 	cout << "================= ";
 	cin >> flag;
 
 
-	// lógica da resposta do usúario --- PODE SER UM SWITCH CASE
-	if (flag == '1') {
-		inserir(vetor, tamanho, capacidade);
-	} else if (flag == '2') {
-		ordenarForcaDecrescente(vetor, tamanho);
-	} else if (flag == '3') {
-		ordenarNomeCrescente(vetor, tamanho);
-	} else if (flag == '4') {
-		remover (vetor, tamanho, capacidade);
-	} else if (flag == '5') {
+	// lógica da resposta do usúario
+	switch (flag)
+	{
+	case '1':
 		imprimirVetor (vetor, tamanho);
-	} else if (flag == '6') {
+		break;
+	case '2':
+		inserir(vetor, tamanho, capacidade);
+		break;
+	case '3':
+		remover (vetor, tamanho, capacidade);
+		break;
+	case '4':
 		switchBusca(vetor, tamanho);
-	} else if (flag == '7') {
-		gravar(vetor, tamanho);
-	} else if (flag == '8') {
+		break;
+	case '5':
+		ordenarNomeCrescente(vetor, tamanho);
+		break;
+	case '6':
+		ordenarForcaDecrescente(vetor, tamanho);
+		break;
+	case '7':
+		gravar(vetor, tamanho, nomeArquivo);
+		break;
+	case '8':
 		cout << "Fim do programa!" << endl;
+		break;
 	}
 }
 
 int main() {
 	cout << "Insira o nome do arquivo a ser lido: ";
 	string nomeArquivo;
-	// cin >> nomeArquivo;
-	nomeArquivo = "atiradores.csv";
+	cin >> nomeArquivo;
 	
 	atirador *vetor = new atirador[40];
 	int capacidade = 40;
@@ -308,7 +333,7 @@ int main() {
 	
 	char flag = '0';
 	while (flag != '8') {
-		menu(flag, vetor, tamanho, capacidade);	
+		menu(flag, vetor, tamanho, capacidade, nomeArquivo);	
 	}
 
 	delete [] vetor;
