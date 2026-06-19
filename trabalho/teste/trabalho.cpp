@@ -249,11 +249,27 @@ void switchBusca (atirador *vetor, int tamanho) {
 	}
 }
 
+void gravar (atirador *vetor, int tamanho) {
+	int i = 0;
+	bool achou = false;
+	while (i < tamanho and !achou) {
+		if (vetor[i].nomeGuerra == "removido :(")
+			achou = true;
+		if (!achou)
+			i++;
+	}
+	
+	while (i < tamanho-1) {
+		vetor[i] = vetor[i+1];
+		i++;
+	}
+}
+
 void menu (char &flag, atirador *&vetor, int &tamanho, int &capacidade) {
 	// impressão do menu
 	cout << "\n\n" << "================= ";
 	cout << "MENU DE FUNCIONALIDADES" << endl;
-	cout << " 1 - Adicionar novo atirador \n 2 - Ordenar por força (decrescente) \n 3 - Ordenar por nome (ordem alfabética) \n 4 - Remover atirador \n 5 - Imprimir vetor \n 6 - Buscar Atirador \n 8 - Encerrar programa" << endl;
+	cout << " 1 - Adicionar novo atirador \n 2 - Ordenar por força (decrescente) \n 3 - Ordenar por nome (ordem alfabética) \n 4 - Remover atirador \n 5 - Imprimir vetor \n 6 - Buscar Atirador \n 7 - Gravar alterações \n 8 - Encerrar programa" << endl;
 	cout << "================= ";
 	cin >> flag;
 
@@ -272,7 +288,7 @@ void menu (char &flag, atirador *&vetor, int &tamanho, int &capacidade) {
 	} else if (flag == '6') {
 		switchBusca(vetor, tamanho);
 	} else if (flag == '7') {
-		// gravação
+		gravar(vetor, tamanho);
 	} else if (flag == '8') {
 		cout << "Fim do programa!" << endl;
 	}
