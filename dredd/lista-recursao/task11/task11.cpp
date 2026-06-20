@@ -7,7 +7,7 @@ int busca (int inicio, int fim, int *vet, int flag) {
 		return -1;
 		
 	int meio = (inicio + fim) / 2;
-	cout << meio << " ";
+	cout << vet[meio] << " ";
 	
 	
 	if (vet[meio] == flag)
@@ -29,7 +29,7 @@ int main() {
 	int flag;
 	cin >> flag;
 	
-	busca (0, qtd, vet, flag);
+	busca (0, qtd-1, vet, flag);
 	
 	delete [] vet;
 	return 0;
