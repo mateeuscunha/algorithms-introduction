@@ -1,0 +1,135 @@
+Trabalho: Aplicação dos Conceitos de Administração na Cacau Show
+1. Introdução
+
+A Cacau Show é uma empresa brasileira do ramo alimentício, especializada na produção e comercialização de chocolates finos, presentes e produtos sazonais. A marca foi fundada em 1988 por Alexandre Tadeu da Costa, que iniciou sua trajetória ainda jovem, vendendo chocolates e atendendo a encomendas de Páscoa. Com o passar dos anos, a empresa cresceu, expandiu seu modelo de franquias e se tornou uma das maiores redes de chocolates finos do Brasil.
+
+A unidade analisada neste trabalho é uma franquia da Cacau Show, pertencente aos proprietários Aline Rocha e Rodrigo Campos. Eles atuam como donos da unidade, acompanhando a gestão do negócio, os resultados financeiros, as metas de vendas, o controle de estoque, a relação com a franqueadora e as decisões estratégicas da loja. Além disso, participam das decisões ligadas a campanhas, contratação de funcionários, organização da equipe e melhorias no atendimento ao cliente.
+
+O ramo de atuação da empresa é o comércio varejista de chocolates, presentes e produtos alimentícios, com forte dependência de datas comemorativas, como Páscoa, Natal, Dia dos Namorados, Dia das Mães e outras campanhas sazonais. A unidade conta com uma equipe formada por colaboradoras que atuam principalmente no atendimento ao cliente, vendas, organização da loja, operação de caixa, montagem de presentes e controle dos produtos.
+
+A empresa foi escolhida por ser uma marca conhecida, presente no cotidiano dos consumidores e por possuir processos bem estruturados de atendimento, treinamento, inovação, gestão de pessoas e relacionamento com clientes. Além disso, a entrevista realizada permitiu observar na prática vários conceitos estudados durante o semestre, tornando possível relacionar a teoria administrativa com a realidade de uma empresa em funcionamento.
+
+2. Conceitos escolhidos
+
+Os 10 conceitos escolhidos para análise foram:
+
+Organização como Sistema Aberto
+Destruição Criativa/Inovação
+Foco no Cliente
+Modelo SECI – Gestão do Conhecimento
+Teoria Contingencial
+Clima Organizacional
+Abordagem Sociotécnica
+Teoria Estruturalista
+Estrutura Hierárquica
+Padronização de Processos
+3. Desenvolvimento
+3.1 Organização como Sistema Aberto
+
+A Cacau Show pode ser analisada como uma organização aberta porque mantém constante relação com o ambiente externo. A empresa acompanha mudanças no comportamento dos consumidores, tendências de mercado, ações da concorrência, datas comemorativas e feedbacks dos clientes.
+
+Na entrevista, foi citado que a empresa possui um departamento de Estratégia e Novos Negócios, responsável por acompanhar demandas do mercado e também criar tendências, como ocorreu com o lançamento do ovo de pistache. Além disso, as campanhas sazonais são planejadas com muita antecedência, como a Páscoa, que exige compras, produção e distribuição meses antes da data.
+
+Na prática, esse conceito é bem aplicado, pois a empresa demonstra capacidade de adaptação ao mercado. No entanto, uma crítica possível é que, por se tratar de uma franquia, a unidade local depende bastante das decisões tomadas pela franqueadora, tendo menor autonomia para criar estratégias próprias de acordo com a realidade da cidade.
+
+Implicação: quando a empresa acompanha bem o ambiente externo, ela consegue se antecipar às tendências, preparar melhor suas campanhas e atender às expectativas dos clientes. Por outro lado, se não acompanhar essas mudanças, pode perder competitividade.
+
+3.2 Destruição Criativa/Inovação
+
+A destruição criativa está ligada à capacidade da empresa de inovar, substituir práticas antigas e criar novos produtos ou processos. Na Cacau Show, isso aparece no lançamento de produtos, na melhoria das linhas de produção, na automação da logística e na verticalização da cadeia produtiva.
+
+Um exemplo citado foi a unificação dos produtos zero açúcar e zero lactose, criando uma linha capaz de atender dois públicos ao mesmo tempo. Também foi mencionado o investimento da empresa em fazendas de cacau, buscando autossuficiência futura, além da compra de empresas ligadas à produção de embalagens.
+
+A aplicação prática desse conceito é positiva, pois a empresa não depende apenas de produtos tradicionais. Ela busca inovar constantemente para atrair novos consumidores. A crítica é que a inovação precisa ser bem comunicada aos clientes e colaboradores, para que todos compreendam os benefícios das mudanças.
+
+Implicação: a inovação pode aumentar as vendas, melhorar a imagem da marca e atrair novos públicos. Porém, se for mal planejada, pode gerar custos altos ou dificuldade de adaptação da equipe.
+
+3.3 Foco no Cliente
+
+O foco no cliente é um dos conceitos mais presentes na Cacau Show. A loja busca compreender as necessidades dos consumidores por meio do atendimento direto, do SAC, das redes sociais e do feedback após campanhas e lançamentos.
+
+Na entrevista, foi relatado que a empresa está testando uma ferramenta de inteligência artificial para auxiliar no atendimento via WhatsApp, permitindo que o cliente realize compras e pagamentos pelo próprio canal. Isso mostra uma tentativa de melhorar a experiência do consumidor e tornar o atendimento mais rápido.
+
+A empresa também possui autonomia para resolver problemas de clientes na loja, como trocas ou devoluções em caso de vício aparente ou oculto no produto. Isso demonstra preocupação com a satisfação e a fidelização.
+
+Implicação: o foco no cliente fortalece a relação com o consumidor, melhora a reputação da marca e aumenta as chances de recompra. Caso o atendimento seja falho, a empresa pode perder clientes e receber avaliações negativas.
+
+3.4 Modelo SECI – Gestão do Conhecimento
+
+O Modelo SECI explica como o conhecimento é criado e compartilhado dentro da organização, passando por socialização, externalização, combinação e internalização. Na Cacau Show, esse conceito aparece no treinamento das colaboradoras e na troca de experiências entre funcionárias mais antigas e novas.
+
+A socialização ocorre quando colaboradoras experientes acompanham as novas funcionárias, ensinando na prática sobre atendimento, organização da loja, montagem de presentes e abordagem ao cliente. A externalização aparece quando procedimentos são transformados em materiais, treinamentos e manuais. A combinação acontece quando os conhecimentos da franqueadora são organizados na Universidade do Cacau. Já a internalização ocorre quando as funcionárias aplicam no dia a dia aquilo que aprenderam nos treinamentos.
+
+A empresa utiliza bem esse conceito, principalmente por meio da Universidade do Cacau, que oferece trilhas de integração, cursos de campanhas, vídeos explicativos e materiais sobre procedimentos. A crítica é que o aprendizado prático continua sendo essencial, e a empresa precisa garantir que o treinamento online realmente seja absorvido pela equipe.
+
+Implicação: a gestão do conhecimento melhora a padronização, reduz erros, acelera a integração de novos funcionários e aumenta a qualidade do atendimento.
+
+3.5 Teoria Contingencial
+
+A Teoria Contingencial afirma que não existe uma única forma correta de administrar, pois as estratégias devem mudar conforme o ambiente e a situação. Na Cacau Show, esse conceito aparece principalmente nas campanhas sazonais.
+
+Na Páscoa, por exemplo, a loja chega a duplicar o número de colaboradores temporários para atender ao aumento da demanda. O mesmo ocorre em datas como Natal e Dia dos Namorados. Além disso, quando surgem desafios, como a alta no preço do cacau, a franqueadora define ações emergenciais de precificação e promoções para reduzir o impacto nas vendas.
+
+A aplicação desse conceito é evidente, pois a loja se adapta conforme a época do ano e as condições do mercado. A crítica é que a dependência das orientações nacionais pode limitar a capacidade da unidade de responder a problemas locais com maior rapidez.
+
+Implicação: a flexibilidade permite que a empresa lide melhor com mudanças de mercado, aumento de demanda e crises. Sem essa adaptação, a loja poderia perder vendas ou enfrentar problemas operacionais.
+
+3.6 Clima Organizacional
+
+O clima organizacional envolve a satisfação, motivação e relacionamento entre os funcionários. Na unidade analisada, a equipe é formada por mulheres e a troca de conhecimento ocorre de maneira colaborativa.
+
+A motivação da equipe é influenciada pelo ambiente de trabalho, pelas campanhas de incentivo, pelo reconhecimento dos resultados e pela boa comunicação entre gerente e colaboradoras. Reuniões, alinhamentos e orientações diárias ajudam a manter a equipe engajada.
+
+O clima organizacional parece positivo, pois existe cooperação entre funcionárias mais experientes e novas colaboradoras. A crítica é que, em períodos de alta demanda, como a Páscoa, a pressão por resultados pode aumentar o desgaste da equipe, sendo necessário cuidado com sobrecarga e estresse.
+
+Implicação: um bom clima organizacional aumenta a produtividade, reduz conflitos, melhora o atendimento e contribui para a permanência dos funcionários. Um clima ruim pode gerar desmotivação, erros e rotatividade.
+
+3.7 Abordagem Sociotécnica
+
+A abordagem sociotécnica analisa a integração entre pessoas e tecnologia dentro da organização. Na Cacau Show, esse conceito aparece no uso de sistemas de gestão, controle de estoque, plataformas de treinamento, canais digitais de atendimento e ferramentas de inteligência artificial.
+
+A empresa utiliza tecnologias para auxiliar vendas, organização de produtos, comunicação, treinamentos e atendimento ao cliente. Ao mesmo tempo, prepara a equipe por meio da Universidade do Cacau e de orientações práticas, garantindo que os funcionários saibam utilizar essas ferramentas.
+
+Esse conceito é bem aplicado porque a empresa não usa a tecnologia isoladamente, mas conecta os sistemas ao trabalho humano. A crítica é que a implantação de novas ferramentas exige treinamento constante, pois a tecnologia só gera bons resultados se os colaboradores estiverem preparados.
+
+Implicação: a boa integração entre pessoas e tecnologia melhora a eficiência, reduz falhas operacionais e aumenta a qualidade do atendimento. Se a equipe não for bem treinada, a tecnologia pode causar confusão e prejudicar o serviço.
+
+3.8 Teoria Estruturalista
+
+A Teoria Estruturalista analisa a organização como um sistema formado por cargos, regras, hierarquia, responsabilidades e relações entre pessoas. Na Cacau Show, a estrutura da loja é organizada com funções bem definidas.
+
+A gerente acompanha a rotina da unidade, lidera a equipe, orienta as colaboradoras e acompanha resultados. As consultoras atuam no atendimento ao cliente, vendas, organização da loja, operação de caixa e montagem de presentes. Os proprietários acompanham decisões estratégicas, financeiras e administrativas.
+
+A empresa apresenta uma estrutura clara, o que facilita a divisão de tarefas e o funcionamento da unidade. A crítica é que uma estrutura muito rígida pode limitar a criatividade dos funcionários, principalmente em situações em que seria necessário adaptar o atendimento.
+
+Implicação: uma estrutura bem definida melhora a organização, reduz conflitos de responsabilidade e facilita o cumprimento das metas. Porém, excesso de rigidez pode dificultar a inovação e a autonomia da equipe.
+
+3.9 Estrutura Hierárquica
+
+A estrutura hierárquica da empresa influencia diretamente a motivação e o comprometimento dos funcionários. Na unidade analisada, existem níveis de responsabilidade, envolvendo proprietários, gerente e colaboradoras da loja.
+
+Os donos, Aline Rocha e Rodrigo Campos, acompanham a gestão geral da unidade. A gerente faz a liderança direta da equipe e garante que as orientações da franqueadora sejam aplicadas. As colaboradoras executam as atividades operacionais, como atendimento, vendas, organização e relacionamento com o cliente.
+
+Quando a hierarquia é clara, os funcionários sabem a quem recorrer, quais são suas responsabilidades e quais resultados precisam alcançar. Isso contribui para maior segurança e comprometimento. A crítica é que a liderança precisa ser participativa, pois uma hierarquia muito distante pode reduzir a motivação da equipe.
+
+Implicação: uma boa estrutura hierárquica melhora a comunicação, a organização e o comprometimento. Caso seja mal conduzida, pode gerar distanciamento entre liderança e equipe, prejudicando o clima organizacional.
+
+3.10 Padronização de Processos
+
+A padronização de processos é um conceito muito presente na Cacau Show, especialmente por se tratar de uma franquia. A empresa possui procedimentos definidos para atendimento, apresentação pessoal, organização da loja, operação de caixa, montagem de produtos e execução de campanhas.
+
+Esses padrões são ensinados por meio da Universidade do Cacau, manuais, vídeos explicativos e treinamentos. Isso garante que o cliente tenha uma experiência semelhante em diferentes unidades da rede.
+
+A padronização é positiva porque aumenta a qualidade e reduz erros. No entanto, a crítica é que a loja precisa equilibrar padronização com flexibilidade, pois cada cliente pode ter uma necessidade diferente e cada cidade pode apresentar características próprias de consumo.
+
+Implicação: processos padronizados aumentam a eficiência, facilitam o treinamento e fortalecem a imagem da marca. Porém, se forem aplicados de forma muito rígida, podem tornar o atendimento menos personalizado.
+
+4. Conclusão
+
+A aplicação dos conceitos estudados durante o semestre na Cacau Show permitiu compreender como a teoria administrativa está presente na prática das organizações. Foi possível perceber que uma empresa, mesmo sendo uma franquia, depende de planejamento, inovação, gestão de pessoas, adaptação ao mercado, padronização e bom atendimento para alcançar bons resultados.
+
+A análise mostrou que a Cacau Show atua como uma organização aberta, pois acompanha o mercado, os clientes e a concorrência. Também utiliza inovação para manter sua competitividade, investe em treinamento por meio da Universidade do Cacau e adapta suas estratégias conforme datas comemorativas e desafios externos.
+
+Além disso, ficou evidente que a estrutura hierárquica, o clima organizacional e a abordagem sociotécnica influenciam diretamente o desempenho da equipe. Quando os funcionários entendem suas funções, recebem treinamento adequado e trabalham em um ambiente positivo, tendem a apresentar maior motivação, comprometimento e qualidade no atendimento.
+
+Conclui-se que os conceitos administrativos não são apenas teorias estudadas em sala de aula, mas ferramentas importantes para entender o funcionamento real de uma empresa. No caso da Cacau Show, a boa aplicação desses conceitos contribui para a organização da unidade, a satisfação dos clientes, a motivação dos colaboradores e o fortalecimento da marca no mercado.
