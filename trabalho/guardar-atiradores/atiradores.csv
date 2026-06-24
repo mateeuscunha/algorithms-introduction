@@ -8,7 +8,7 @@ numGuerra;nomeGuerra;arma;profissao;forca
 7;CRUZ;cavalaria;mecanico;69.1
 8;DIAS;artilharia;soldador;71.8
 9;FARIAS;engenharia;motorista;74.4
-10;FREITAS;comunicacoes;professor;77
+10;FREITAS;comunicacoes;professor;77.0
 11;GOMES;infantaria;medico;79.6
 12;HENRIQUES;cavalaria;advogado;82.3
 13;JOSUE;artilharia;engenheiro;84.9
@@ -16,7 +16,7 @@ numGuerra;nomeGuerra;arma;profissao;forca
 15;BOLINA;infantaria;encanador;90.1
 16;MARTINS;cavalaria;pedreiro;92.8
 17;MENDES;artilharia;pintor;95.4
-18;MORAES;engenharia;eletricista;98
+18;MORAES;engenharia;eletricista;98.0
 19;NASCIMENTO;comunicacoes;carpinteiro;100.6
 20;PACHECO;infantaria;mecanico;103.3
 21;RIBEIRO;cavalaria;soldador;105.9
@@ -24,7 +24,7 @@ numGuerra;nomeGuerra;arma;profissao;forca
 23;RODRIGUES;engenharia;professor;111.2
 24;SANTOS;comunicacoes;medico;113.8
 25;GUIMARAES;infantaria;advogado;116.4
-26;SILVA;cavalaria;engenheiro;119
+26;SILVA;cavalaria;engenheiro;119.0
 27;DA SOUZA;artilharia;arquiteto;121.7
 28;TEIXEIRA;engenharia;dentista;124.3
 29;VASCONCELOS;comunicacoes;farmaceutico;126.9
@@ -32,17 +32,17 @@ numGuerra;nomeGuerra;arma;profissao;forca
 31;ALVES;cavalaria;contador;132.2
 32;ANDRADE;artilharia;administrador;134.8
 33;ARAUJO;engenharia;psicologo;137.4
-34;AZEVEDO;comunicacoes;jornalista;140
+34;AZEVEDO;comunicacoes;jornalista;140.0
 35;BARBOSA;infantaria;publicitario;142.7
 36;BARROS;cavalaria;designer;145.3
 37;BORGES;artilharia;fotografo;147.9
-38;CARDOSO;engenharia;musico;150
+38;CARDOSO;engenharia;musico;150.0
 39;COELHO;comunicacoes;chef cozinha;98.5
 40;CORDEIRO;infantaria;bombeiro civil;95.2
-41;COUTINHO;cavalaria;policial militar;92
+41;COUTINHO;cavalaria;policial militar;92.0
 42;DE CARVALHO;artilharia;caminhoneiro;88.7
 43;DAMASCENO;engenharia;entregador;85.3
-44;DOMINGUES;comunicacoes;vigia noturno;82
+44;DOMINGUES;comunicacoes;vigia noturno;82.0
 45;DUARTE;infantaria;porteiro;78.6
 46;ESTEVES;cavalaria;faxineiro;75.3
 47;FERNANDES;artilharia;jardineiro;71.9
@@ -53,7 +53,7 @@ numGuerra;nomeGuerra;arma;profissao;forca
 52;GONCALVES;artilharia;telefonista;55.1
 53;MACEDO;engenharia;secretario executivo;91.4
 54;MACHADO;comunicacoes;analista sistemas;94.7
-55;MAGALHAES;infantaria;programador;98
+55;MAGALHAES;infantaria;programador;98.0
 56;MARCOS;cavalaria;web designer;101.3
 57;MEDEIROS;artilharia;suporte tecnico;104.6
 58;MELO;engenharia;redator;107.9
@@ -63,16 +63,16 @@ numGuerra;nomeGuerra;arma;profissao;forca
 62;CUNHA;artilharia;mecanico automotivo;121.1
 63;NUNES;engenharia;eletricista predial;124.4
 64;OLIVEIRA;comunicacoes;encanador hidraulico;127.7
-65;PAIVA;infantaria;carpinteiro naval;131
+65;PAIVA;infantaria;carpinteiro naval;131.0
 66;PEREIRA;cavalaria;pedreiro armador;134.3
 67;PINHEIRO;artilharia;pintor residencial;137.6
 68;PIRES;engenharia;serralheiro;140.9
 69;QUEIROZ;comunicacoes;soldador industrial;144.2
 70;RAMOS;infantaria;motorista entregador;147.5
-71;REIS;cavalaria;professor matematica;150
+71;REIS;cavalaria;professor matematica;150.0
 72;REZENDE;artilharia;medico plantonista;76.4
 73;RICHARD;engenharia;advogado trabalhista;79.7
-74;RICARDO;comunicacoes;engenheiro civil;83
+74;RICARDO;comunicacoes;engenheiro civil;83.0
 75;ROSA;infantaria;arquiteto paisagista;86.3
 76;SALES;cavalaria;dentista ortopedista;89.6
 77;SAMPAIO;artilharia;farmaceutico industrial;92.9
@@ -82,7 +82,7 @@ numGuerra;nomeGuerra;arma;profissao;forca
 81;SERRA;cavalaria;psicologo clinico;106.1
 82;SILVEIRA;artilharia;jornalista esportivo;109.4
 83;SOARES;engenharia;publicitario criativo;112.7
-84;SOUSA;comunicacoes;designer grafico;116
+84;SOUSA;comunicacoes;designer grafico;116.0
 85;TAVARES;infantaria;fotografo documental;119.3
 86;TOSTA;cavalaria;musico orquestra;122.6
 87;TOGURO;artilharia;chef patisserie;125.9
@@ -92,11 +92,10 @@ numGuerra;nomeGuerra;arma;profissao;forca
 91;VEIGA;cavalaria;entregador moto;139.1
 92;VELOSO;artilharia;vigia patrimonial;142.4
 93;VERISSIMO;engenharia;porteiro noturno;145.7
-94;VILANOVA;comunicacoes;faxineiro limpeza;149
+94;VILANOVA;comunicacoes;faxineiro limpeza;149.0
 95;VITORINO;infantaria;jardineiro paisagista;78.3
 96;WAGNER;cavalaria;gari coletor;81.6
 97;XAVIER;artilharia;servente predial;84.9
 98;YAGO;engenharia;auxiliar logistica;88.2
 99;YURI;comunicacoes;recepcionista hotel;91.5
 100;ZEFERINO;infantaria;telefonista empresa;94.8
-101;AA;infantaria;dev;152

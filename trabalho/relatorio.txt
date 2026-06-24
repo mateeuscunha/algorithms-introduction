@@ -1,3 +1,5 @@
+INTEGRANTES: GILBRAN GUIMARÃES SALEM, MATEUS SOUZA CUNHA
+
 O presente trabalho consiste no desenvolvimento de um sistema de cadastro de atiradores em C++, com armazenamento persistente dos dados em arquivo CSV. O sistema permite gerenciar um conjunto de registros, cada um contendo cinco informações sobre um atirador: número de guerra (inteiro), nome de guerra (string com espaço), arma (string), profissão (string com espaço) e força (ponto flutuante).
 Ao ser iniciado, o programa carrega os dados do arquivo CSV em um vetor alocado dinamicamente, permitindo ao usuário realizar operações de inserção, remoção, ordenação e busca sobre os registros em memória. Ao final, o usuário pode gravar as alterações realizadas de volta ao arquivo, garantindo a persistência dos dados entre execuções.
 
