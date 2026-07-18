@@ -1,0 +1,1 @@
+O sizeof pode ser usado com o tipo ou com o nome da variavel.

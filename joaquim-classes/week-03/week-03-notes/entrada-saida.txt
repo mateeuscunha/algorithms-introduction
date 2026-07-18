@@ -1,0 +1,26 @@
+Entrada e saída padrão: teclado e monitor
+
+	Operações de entrada e saída:
+Função leia - operação de entrada
+Funcao escreva - operacao de saida
+
+cin -- leia /*precisam da iostream*/
+cout -- escreva /*precisa declarar std*/
+
+cout << "Mensagem de texto";
+
+É possível imprimir vários:
+
+cout << "mensagem" << endl << idade;
+
+	Precisão dos valores float:
+cout.precision(10); -- dez casas decimais
+cout.setf(ios::fixed); -- casas devem ser impressas mesmo que sejam igual a 0.
+
+
+
+	cin >> idade;
+
+Podemos também receber várias variáveis:
+
+ cin >> var1 >> var 2;

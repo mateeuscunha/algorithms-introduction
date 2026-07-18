@@ -1,0 +1,1 @@
+Variáveis são informações que variam de acordo com o contexto ao qual se aplicam, ocupam espaço na memória do computador. Elas existem somente em tempo de execução. Possuem um identificador, nome. Elas armazenam um valor (dado). Elas são de um tipo específico de dado.

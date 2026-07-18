@@ -1,0 +1,32 @@
+	Operadores unários
+ Possuem um único operando:
+ adição unária: +
+ subtração unária: -
+
+	Operadores binários
+ Possuem dois operandos com notação infixa (operador no meio dos operandos)
+ adição, subtração, multiplicação, divisão, resto.
+
+Uma divisão de dois números inteiros, sempre retorna número inteiro. Para retornar o valor flutuante, basta um dos dois operandos ser um float.
+Entretanto, quando não podemos, por algum motivo, transformar um dos operandos em float, utilizamos as técnicas de conversão (casting) e construtor de float. 
+ Conversão: 
+	float x = (float) 7/2;
+		ou
+	float x = 7/ (float) 2;
+
+ Construtor:
+	float x = float(7) / 2;
+		ou
+	float x = 7 / float(2);
+
+Ordem de prioridade: operadores unários > multiplicação, divisão, resto > soma e subtração.
+
+	Atribuições compostas:
+		i = i + 2;
+		Pode ser escrito:
+		i += 2;
+
+ Operadores de incremento e decremento:
+	i += 1; é o mesmo de: i++;
+	j -= 1; é o mesmo de: j--;
+

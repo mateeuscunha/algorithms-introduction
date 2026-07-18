@@ -1,0 +1,16 @@
+	Para usar a biblioteca matemática:
+ #include <cmath>
+
+- Uma biblioteca é uma coleção de subprogramas(funções).
+- A cmath tem: trigonometria, log, potências, raiz quadrada, constantes para números irracionais.
+
+ pow() - potênciação
+ sqrt() - raiz quadrada
+ cos() - cosseno
+ sin() - seno
+ tan() - tangente
+ ceil() - arredondar pra cima
+ floor() - arredondar pra baixo
+ round() - arredondar
+ abs() - valor absoluto (módulo)
+

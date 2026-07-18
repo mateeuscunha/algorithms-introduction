@@ -1,0 +1,12 @@
+	Função getline()
+
+Utilizada para ler strings com espaço.
+
+string frase;
+getline(cin, frase);
+
+
+char frase[20];
+cin.getline(frase, 20;
+
+

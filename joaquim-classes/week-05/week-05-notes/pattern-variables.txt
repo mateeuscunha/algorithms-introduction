@@ -1,0 +1,3 @@
+Contador - usado para contar.
+Acumulador - usado para acumular valores.
+Sentinela - usado para controlar uma expressao de controle.

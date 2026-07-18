@@ -1,0 +1,16 @@
+Um SISTEMA COMPUTACIONAL é composto pelo CPU, memória principal(RAM), memória secundária(HD), dispositivos de entrada e de saída.
+
+Um PROGRAMA é um algoritmo implementado no sistema computacional.
+
+ALGORITMO é uma sequência finita e ordenada de ações que fazem uma tarefa.
+
+LINGUAGEM DE PROGRAMAÇÃO é um conjunto de métodos para comunicar instruções ao computador. Esse métodos são baseados em um conjunto de regras bem definidas, que abrangem os aspectos léxicos(como escreve em si), sintáticos(estrutura) e semânticos(sentido).
+Mas por que não usar um idioma normal, como português ou inglês para programar? Problema: ambiguidade.
+Tipos de linguagem: declarativas, estruturadas, funcionais, procedimentais, orientadas ao objeto.
+E, essas linguagens podem ser compiladas ou interpretadas.
+A compilação ou a interpretação, a depender da linguagem, é a ferramenta que pega e faz a tradução daquilo que a gente escreveu para o 'idioma' do hardware.
+
+COMPILAÇÃO: pega o código fonte (aquele código do jeitinho que escrevemos) e compila em um arquivo executável, que o sistema operacional entende.
+INTEPRETAÇÃO: o código fonte vai sendo passado para o interpretador, ao passo que escrevemos, e ele já traduz em algo que o hardware entende. Nesse caso, não são gerados arquivos adicionais.
+
+No curso vamos usar C++, é a linguagem usada na criação de sistemas operacionais e compiladores/interpretadores de outras linguagens.

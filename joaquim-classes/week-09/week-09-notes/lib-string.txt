@@ -1,0 +1,12 @@
+Biblioteca <string>
+
+- Busca: find()
+- Remoção de um caractere em uma posição específica da sequência: erase()
+- Substituição: replace()
+- Entre outras...
+
+
+url para documentação:
+	http://ww.cplusplus.com/reference/string/string/
+	http://www.cplusplus.com/forum/beginner/4614
+

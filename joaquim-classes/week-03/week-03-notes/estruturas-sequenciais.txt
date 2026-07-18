@@ -1,0 +1,4 @@
+	Estruturas sequenciais
+
+Instruções são executadas passo a passo.
+Problemas sequenciais: trocar valores entre variaveis, ao mandar o primeiro, a variavel zera e perde-se o valor. Para resolver, utilizamos uma terceira variavel auxiliar.

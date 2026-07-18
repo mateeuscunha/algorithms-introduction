@@ -1,0 +1,7 @@
+No que diz respeito ao modo de abertura, em algumas situações específicas, pode ser necessário abrir o arquivo de uma forma especial, como abri-lo para escrever no final, apenas, por exemplo.
+
+Abertura de arquivo para escrita no fim:
+   ofstream arquivo ("meus-dados.txt", ios::app)
+
+Abertura de arquivo em modo binário (forma de escrita do caracter de término de linha):
+   ofstream arquivo ("meus-dados.dat", ios::binary)

@@ -1,0 +1,5 @@
+WHILE -- verifica no começo
+DO WHILE -- verifica no final
+
+	WHILE
+Possui uma expressão de controle e um bloco de repetição.

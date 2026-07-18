@@ -1,0 +1,6 @@
+Tipos derivados - são derivados dos tipos primitivos
+- tipos enumerados
+- arranjos/vetores
+- matrizes
+- registros
+- classes

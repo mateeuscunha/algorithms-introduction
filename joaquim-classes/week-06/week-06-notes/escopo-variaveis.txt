@@ -1,0 +1,5 @@
+Escopo de variáveis é o conjunto de instruções no qual a variável é visível, no qual ela pode ser acessada.
+
+Uma variável é local se ela é local para a unidade ou bloco de programa, ou seja, se ela foi declarada nessa unidade/bloco.
+
+Variáveis globais são declaradas fora do main e de qualquer função e podem ser acessadas. Evitar usar porque deixam os programas menos genéricos, tornam o código menos legível, dificultam a manutenção, tornam o programa menos confiável (suscetível a falhas).

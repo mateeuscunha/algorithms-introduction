@@ -1,0 +1,16 @@
+Ordenar vetores é essencial para implementar busca.
+Ordenar consiste em permutar tais itens em uma ordem.
+Pode ser com int ou char, por exemplo. Os que estão sendo comparados são chamados 'chave'.
+
+Métodos de ordenação interna - só usam memória RAM.
+ Algoritmos simples: complexidade quadrática - 100 elementos = 10000 comparações.
+	insertion sort
+	select sort
+	buble sort
+ Algoritmos eficientes: complexidade logarítmica - n*logn - 100 elementos = 2000 comparações.
+	shell sort
+	quick sort
+	merge sort	
+
+Métodos de ordenação externa - usam disco rígido.
+

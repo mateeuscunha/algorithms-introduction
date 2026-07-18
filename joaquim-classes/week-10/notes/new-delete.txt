@@ -1,0 +1,48 @@
+O new encontra o bloco de memória com o tamanho necessário 
+E retorna o endereço (da primeira posição) do bloco alocado
+Retorna um ponteiro tipado;
+
+O delete deleta o espaço reservado pelo new
+
+
+
+
+Se for um vetor, podemos alocar e desalocar da seguinte forma:
+
+int *ptr = new int[N];
+(...)
+delete[] ptr;
+
+
+
+
+Se for uma matriz:
+
+int m, n;
+int **matriz;
+cin >> m >> n;
+matriz = new int*[m]; //declarando um array de ponteiros
+for (int i = 0; i < m; i++) {
+	matriz[i] = new int[n];
+}
+
+
+for (int i = 0; i < m; i++) //aqui se desalocam as colunas
+	delete[] matriz[i];
+delete[] matriz; //aqui se desalocam as linhas
+
+
+
+
+
+
+
+
+
+O problema da variable length array:
+int tam;
+cin >> tam;
+int vetor[tam];
+
+Ela não é padrão da linguagem
+Utiliza uma região do programa reservada para variáveis temporárias e retorno de funções, uma área pequena, não recomendada. Tanto que nem funciona em todos os compiladores.

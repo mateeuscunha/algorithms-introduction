@@ -1,0 +1,14 @@
+Igualdade ==
+Maior que >
+Menor que <
+Maior ou igual a >=
+Menor ou igual a <=
+Diferença !=
+
+	OPERADORES LÓGICOS
+
+Operador|	C++|	C
+	|	   |
+E	|	and|	&&
+OU	|	or |	||
+NAO	|	not|	!

@@ -1,0 +1,15 @@
+	Seletores alinhados
+Uso de if depois de um else.
+
+	Seletores múltiplos
+
+switch (variavel_expressao_analise) {
+	case Valor1:
+		bloco para valor1
+		break;
+	case Valor2:
+		bloco para valor2
+		break;
+	default:
+		bloco para caso padrao
+}

@@ -1,0 +1,2 @@
+Variáveis Homogêneas permitem que você armazene informações da mesma natureza. Listas, conjuntos, vetores.
+Vetor é um conjunto de locais consecutivos de memória.

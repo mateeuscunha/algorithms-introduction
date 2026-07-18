@@ -1,0 +1,31 @@
+	DECLARAÇÃO DE VARIÁVEIS EM C++
+
+Para declararmos variáveis em c++, precisamos de dois elementos:
+ - O tipo de dado que a variável armazenará 
+ - Um identificador (nome) para a variável
+
+Exemplo:
+
+	int idade;
+
+Além de declarar, podemos fixar um valor inicial nessa variável, que o processo chamado "inicialização":
+	
+	int idade = 20;
+
+Para alterar ao longo do programa(atribuição): 
+
+	idade = 23;
+
+Se quiser uma variável que não altera o seu valor, basta declarar uma constante:
+
+	const float pi = 3.14159;
+
+C++ possui algumas restrições quanto ao nome da variável:
+
+ 1 - todo identificador pode conter apenas: letras do alfabeto romano, números, símbolo de sublinhado (underscore_).
+ 2 - não pode iniciar em número.
+ 3 - duas variáveis não podem ter o mesmo nome, exceto em casos muito especiais, que não entraremos no curso.
+ 
+Ademais, o C++ é uma linguagem sensível ao caso, ou seja, diferencia entre maiúsculas e mínusculas. JOB != job.
+
+

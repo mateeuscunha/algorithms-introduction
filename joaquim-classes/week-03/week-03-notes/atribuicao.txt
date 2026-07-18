@@ -1,0 +1,9 @@
+	Atribuir um valor à variável é semelhante na maioria das linguagens:
+ idade = 20;
+
+	Regras:
+- Só é possível atribuir valor a uma variável já declarada
+- É preciso utilizar o ponto, e não vírgula, para decimais
+- A parte decimal é descartada se a variável for inteira
+- Valores antigos são descartados
+- Valores float não são exatos		

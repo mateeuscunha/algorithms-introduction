@@ -1,0 +1,1 @@
+O seletor bidirecional, diferente do unidirecional que, se a expressao controle nao for true, o código segue o fluxo normal, tem como particularidade a existencia de dois blocos condicionais, um para true e outro para false. Esse é quando usamos IF com ELSE.

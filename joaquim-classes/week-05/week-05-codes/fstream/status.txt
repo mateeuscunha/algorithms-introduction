@@ -1,0 +1,1 @@
+O status de um arquivo diz respeito se ele está próprio ou impróprio para uso. Caso tentemos ler um arquivo impróprio, a variável associada ao arquivo fica marcada como imprópria e a tentativa de leitura ou escrita posterior gerará erro. Para mudar o status para própria novamente, é necessário utilizar o método "clear".

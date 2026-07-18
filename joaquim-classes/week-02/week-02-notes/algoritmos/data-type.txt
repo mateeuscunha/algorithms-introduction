@@ -1,0 +1,82 @@
+	Tipos de Dados
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Alguns elementos que se destacam:
+  - Capacidade de representação do tipo (o que ele pode representar e em qual quantidade)
+  - Potencial de representação dos conceitos básicos da linguagem (o que é que ele consegue representar - valores monetários, conceitos matemáticos e etc)
+  - Suporte em Hardware
+
+ A maioria das linguagens vão dar suporte para:
+  - Números inteiros
+  - Números em ponton flutuante
+  - Valores lógicos
+  - Texto
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Tipos de Dados em C++
+
+ELEMENTAR:
+ 
+	 - Tipo CHAR
+	Ocupa 1 BYTE de memória (apenas um dígito, por exemplo: "R", "A", "7", "!")
+	Pode ser, além disso, um número inteiro pequeno, que ocupe 1 BYTE. Estes ficam no intervalo de -128 até +127.
+
+
+NÚMEROS:
+
+	 - Tipo INT
+	Ocupa ao menos 4 BYTES
+	A faixa suportada pelo tipo INT depende do compilador utilizado, mas o padrão é de 2 bilhões negativos até 2 bilhões positivos.
+	Uma variação do tipo INT é o UNSIGNED ou UNSIGNED INT, utilizado quando você não quer ou não precisa representar valores negativos.
+
+	 - Tipo SHORT ou SHORT INT
+	Ocupa ao menos 2 BYTES
+	Esse é um intermediário entre o INT e o CHAR.
+	
+	 - Tipo LONG ou LONG INT
+	Ocupa ao menos 4 BYTES
+	Parecido com o tipo INT.
+	
+	 - Tipo LONG LONG ou LONG LONG INT
+	Ocupa ao menos 8 BYTES
+	Representa uma faixa bem maior de valores.
+
+
+BOOLEANOS:
+
+	 - Tipo BOOL
+	Pode receber TRUE ou FALSE.
+
+
+FLUTUANTES:
+
+	 - Tipo FLOAT 
+	Ocupa ao menos 4 BYTES
+	É também uma grande faixa.
+
+	 - Tipo DOUBLE
+	Ocupa ao menos 8 BYTES
+	Tem mais precisão do que o tipo FLOAT, devido a sua extensão.
+
+	 - Tipo LONG DOUBLE
+	Ocupa ao menos 10 BYTES
+	Então, é ainda mais preciso, é ainda maior, mas sempre aproximado.
+
+
+TEXTOS:
+
+	 - Tipo STRING
+	Ocupa ao menos 10 BYTES
+	É uma sequência de caracteres.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	Tipificação Forte e Fraca
+
+ É comum, principalmente em linguagens interpretadas, o tipo da varível se modificar com facilidade durante a execução.
+ Em linguagens compiladas, é mais comum o uso da tipificação forte, uma linguagem de um tipo não pode se tornar uma linguagem de outro tipo.
+
+

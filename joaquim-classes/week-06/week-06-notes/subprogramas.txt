@@ -1,0 +1,6 @@
+Estrutura de um subprograma (função ou procedimento):
+
+tipo-retorno identificador-subprograma (tipo1 parametro1, ..., tipoN parametroN) {
+	/*Corpo do subprograma (instruções)*/
+	return valor-retorno;
+}

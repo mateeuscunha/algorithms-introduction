@@ -1,0 +1,8 @@
+	Manutenibilidade e Manutenção de Software
+
+Comentarios: 
+
+	de linha: //
+	de bloco: /**/
+
+Identação: Uso de espaços em branco ou tabulações (tab).

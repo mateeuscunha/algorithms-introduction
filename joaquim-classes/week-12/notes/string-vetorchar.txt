@@ -1,0 +1,6 @@
+Para transformar uma string num vetor de char, usamos a função: 
+
+string nomeArq;
+cin >> nomeArq;
+
+char vetor[5] = nomeArq.c_strn();

@@ -1,0 +1,3 @@
+Matrizes podem ser vistas como vetores nos quais os seus elementos são outros vetores.
+
+tipo_dado identificador[linhas][colunas];

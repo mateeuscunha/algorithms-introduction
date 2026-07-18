@@ -1,0 +1,12 @@
+Algoritmos são compostos por dados, estruturas, funções, operações, comandos, comentários.
+
+Estruturas: 
+ 1 - Sequenciais: comandos executados na sequência em que são apresentados.
+ 2 - Condicionais: realiza testes e, de acordo com o resultado deste teste, o algoritmo segue por um lado ou por outro.
+ 3 - Repetição: trechos dos algoritmos são repetidos algumas vezes, dependendo de um tipo de condição específica.
+
+Comandos e operações: Estes são usados para executar funções específicas, como somar, imprimir e etc
+
+Funções e procedimentos: Estes são utilizados para organizar a solução do problema.
+
+Comentários: Inclui informações que não são executadas, mas o descrevem.

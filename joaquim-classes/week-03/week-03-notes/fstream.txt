@@ -1,0 +1,48 @@
+A biblioteca fstream desempenha funcoes com arquivos como: 
+- apagar
+- mover 
+- renomer
+- leitura 
+- escrita
+
+Para escrever ou ler, é necessario abrir o arquivo.
+Ao final é necessario fecha-lo.
+
+Existem dois tipos de arquivos: fluxo de texto (tabela ascII ou utf-8) e fluxo binario (como na memória)
+
+Streams = fluxos
+ ifstream - para entrada e leitura de dados
+ ofstream - para saida e escrita de dados
+ fstream - leitura e saida
+
+Ofstream: se o arquivo nao existir, sera criado, se ja existir, sobrescreverá.
+
+Ifstream: se o arquivo nao existir, nao sera criado e dara erro.
+
+ ofstream arquivo("meus_dados.txt");
+ arquivo << "escrevendo no arquivo..."
+ 	 << endl;
+ arquivo.close();
+ return 0;
+	
+Nesse caso, nao vimos o open, so o close, e é por isso:
+
+ ofstream arquivo;
+ ("meus-dados.txt");
+
+ Equivale a:
+
+ ofstream arquivo;
+ arquivo.open("meus-dados.txt");
+
+	Status de um arquivo e modo de abertura
+
+Status de um arquivo - proprio ou improprio para uso. Isso mancha a variavel ligada ao arquivo, como impropria ou propria, sendo que se ela for impropria e tentarmos ler ela, vai dar erro. Para mudar o status para propria de novo tem que usar o metodo clear.
+
+Modos de abertura:
+
+- abertura de arquivo para escrita no fim:
+ ofstream arquivo("meus-dados.txt", ios::app)
+
+- abertura de arquivo em modo binario (forma de escrita do caracter de termino de linha)
+ ofstream arquivo("meus-dados.dat", ios::binary)

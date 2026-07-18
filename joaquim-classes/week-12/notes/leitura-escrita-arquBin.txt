@@ -1,0 +1,57 @@
+
+Podemos usar funções para ler e escrever no arquivo:
+entrada.read(teste,10);
+saida.write("teste\n", 7);
+
+os numeros indicam os bits máximos de leitura e escrita.
+
+
+
+
+Podemos escrever dados binários em arquivos da seguinte forma:
+
+arquivo.write ((const char *) (&variavel), sizeof(tipo_dado_variavel));
+
+ou 
+
+arquivo.write(reinterpret_cast<const char *> (&variavel), sizeof(tipo_dado_variavel));
+
+
+Para ler:
+
+arquivo.read ((const char *) (&variavel), sizeof(tipo_dado_variavel));
+
+ou 
+
+arquivo.read(reinterpret_cast<const char *> (&variavel), sizeof(tipo_dado_variavel));
+
+
+
+
+Para ler um vetor, por exemplo:
+
+int vetor[10];
+arquivo1.read ((char *) (vetor), sizeof(int) * 10);
+arquivo2.write (const char *) (vetor), sizeof(vetor));
+
+
+
+
+
+tellg() - posição de leitura;
+tellp() - posição de escrita;
+
+seekp() - modificar posição de leitura;
+seekg() - modificar posição de escrita;
+
+exemplo:
+
+struct aluno {...}
+// colocando a posição de leitura no terceiro registro
+arquivo.seekg(2*sizeof(aluno)); 
+
+//posicionando no final do arquivo
+arquivo.seekg (0, arquivo.end);
+int tamanho = arquivo.tellg();
+//retornando ao início do arquivo
+arquivo.seekg (0, arquivo.beg);

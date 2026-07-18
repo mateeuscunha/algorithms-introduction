@@ -1,0 +1,14 @@
+Passagem de parâmetros é o mecanismo de informar os valores a serem processados pelo subprograma.
+
+	Passagem por cópia ou passagem por valor
+
+As variáveis passadas como parâmetro não tem seu valor modificado dentro do subprograma. Porque ele não recebe a variável em si, mas uma cópia dela, somente o valor. 
+
+
+
+	Passagem por referência
+
+Não é feita uma cópia, passamos a variável em si.
+Para indicar que um parâmetro está sendo passado por referência, em C++, utiliza-se o símbolo &. Ou após o tipo, ou antes da variável.
+
+  Há dados que são passados naturalmente por referência, sem usar o &.

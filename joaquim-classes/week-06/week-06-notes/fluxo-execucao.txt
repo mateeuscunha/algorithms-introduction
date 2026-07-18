@@ -1,0 +1,21 @@
+O que acontece quando chamamos um subprograma?
+1 - Avaliação dos argumentos da lista de parâmetros.
+
+2 - Os tipos são analisados. Acontecem conversões de inteiro, float, string.
+
+3 - Atribuição das variáveis de parâmetros (dentro do bloco de comandos, corpo)
+
+4 - O corpo do subprograma é executado.
+
+5 - Ao término, o fluxo de execução retorna ao ponto imediatamente após a chamada do subprograma.
+
+
+
+Vale destacar que o corpo do subprograma roda até que uma dessas duas condições seja satisfeita:
+  - Se encontre um comando de 'return'.
+  - Não existam mais instruções no corpo do subprograma para serem executadas.
+
+
+
+Um subprograma que não retorna, tem como retorno o tipo 'void', esse é o "procedimento".
+ 

@@ -1,0 +1,8 @@
+A função main também aceita parâmetros, contudo, só dessas duas formas:
+
+int main() {} //passando nada
+
+int main (int argc, char* argv[]) {} //nesse molde
+
+
+

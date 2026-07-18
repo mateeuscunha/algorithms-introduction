@@ -1,0 +1,3 @@
+Para usar malloc e free, precisamos declarar a biblioteca <cstdlib>
+
+O ponteiro devolvido por malloc não é tipado, por isso devemos fazer um casting;

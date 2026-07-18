@@ -1,0 +1,5 @@
+Semelhante ao hardware "arduino" a linguagem C++ funciona de maneira modular, ou seja, podemos acoplar bibliotecas, funções, classes, procedimentos.
+
+Modularização é dividir um algoritmo grande em partes menores.
+
+Falaremos mais, no curso, sobre funções e procedimentos.
